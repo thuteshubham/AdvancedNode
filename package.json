@@ -1,0 +1,25 @@
+{
+  "name": "chat-backend",
+  "version": "1.0.0",
+  "description": "chat application backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Thute",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.26",
+    "mongoose": "^5.6.4",
+    "morgan": "^1.9.1",
+    "pino": "^5.12.6",
+    "short-id": "0.1.0-1"
+  }
+}
